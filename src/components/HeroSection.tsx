@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Play, Zap } from "lucide-react";
-import heroImage from "@/assets/hero-ai-agents.jpg";
+import heroImage from "@/assets/hero.png";
+import { Particles } from "./ui/particles";
 
 const HeroSection = () => {
   return (
@@ -62,12 +63,17 @@ const HeroSection = () => {
           
           {/* Hero Image */}
           <div className="relative">
-            <div className="absolute inset-0 bg-gradient-primary rounded-3xl blur-xl opacity-30 transform rotate-3"></div>
+            <Particles className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"/>
             <img 
               src={heroImage} 
               alt="AI agents automation platform showing integrated workflow"
-              className="relative w-full h-auto rounded-3xl shadow-card border border-border/20"
+              className="relative w-full h-auto"
+              style={{ mixBlendMode: 'lighten', filter: 'hue-rotate(120deg)', boxShadow: '0 0px 200px 100px rgba(0, 0, 0, 1)' }}
+
             />
+            <div className="w-full h-full shine">
+
+            </div>
           </div>
         </div>
       </div>

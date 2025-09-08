@@ -1,4 +1,4 @@
-import integrationsImage from "@/assets/integrations-network.jpg";
+import integrationsImage from "@/assets/integrations.png";
 
 const IntegrationsSection = () => {
   const integrations = [
@@ -35,12 +35,12 @@ const IntegrationsSection = () => {
           </div>
           
           {/* Integration Visual */}
-          <div className="relative">
-            <div className="absolute inset-0 bg-gradient-accent rounded-3xl blur-2xl opacity-20"></div>
+          <div className="relative flex justify-center">
             <img 
               src={integrationsImage}
               alt="Network of business tool integrations showing connected platforms"
-              className="relative w-full h-auto rounded-3xl shadow-card border border-border/20"
+              style={{ mixBlendMode: 'lighten', boxShadow: '0 0px 200px 100px rgba(0, 0, 0, 1)' }}
+              className="relative w-1/2 h-auto rounded-full mx-auto mb-12"
             />
           </div>
           

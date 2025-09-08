@@ -36,7 +36,7 @@ const ClosingCTASection = () => {
               <p className="text-muted-foreground">Active AI agents deployed</p>
             </div>
             <div className="space-y-2">
-              <div className="text-4xl font-bold bg-gradient-accent bg-clip-text text-transparent">500+</div>
+              <div className="text-4xl font-bold bg-gradient-accent bg-clip-text text-transparent">50+</div>
               <p className="text-muted-foreground">Businesses automated</p>
             </div>
             <div className="space-y-2">

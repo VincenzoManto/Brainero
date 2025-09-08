@@ -5,6 +5,7 @@ import UseCasesSection from "@/components/UseCasesSection";
 import WhyBraineroSection from "@/components/WhyBraineroSection";
 import PricingSection from "@/components/PricingSection";
 import ClosingCTASection from "@/components/ClosingCTASection";
+import Footer from "../components/Footer";
 
 const Index = () => {
   return (
@@ -16,6 +17,7 @@ const Index = () => {
       <WhyBraineroSection />
       <PricingSection />
       <ClosingCTASection />
+      <Footer />
     </main>
   );
 };
